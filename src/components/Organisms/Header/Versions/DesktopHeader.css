@@ -1,0 +1,30 @@
+.header-desktop {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    height: 64px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header-desktop-content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.menuDesplegableEnHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-desktop-content-menuHamburguesa img{
+    cursor: pointer;
+}

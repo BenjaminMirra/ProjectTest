@@ -1,0 +1,111 @@
+.menuDesplegable-container {
+    padding-top: 10px;
+    top: 64px;
+    width: 98%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.75s ease;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    position: absolute;
+}
+
+.menuDesplegable-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #B1B1B1;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.menuDesplegable-header input {
+    border: none;
+    width: 100%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.menuDesplegable-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuDesplegable-content h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #486DB7;
+    margin-bottom: 10px;
+}
+
+.menuDesplegable-content li {
+    list-style: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #B1B1B1;
+}
+
+.menuDesplegable-separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.menuDesplegable-separator img {
+    width: 100%;
+}
+
+.menuDesplegable-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menuDesplegable-footer li {
+    list-style: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #B1B1B1;
+}
+
+@media (max-width: 850px) {
+
+    .menuDesplegable-footer{
+        flex-wrap: wrap;
+    }
+    .menuDesplegable-header{
+        width: 80%;
+    }
+    .menuDesplegable-content{
+        flex-wrap: wrap;
+    }
+}

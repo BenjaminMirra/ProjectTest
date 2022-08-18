@@ -1,0 +1,100 @@
+.hero-home-desktop {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    background-image: url('../../Utils//images//fotoHome.jpg');
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.hero-home-desktop-content {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    height: 550px;
+}
+
+.hero-home-desktop-content h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    height: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.pink {
+    color: #F778B9;
+}
+
+.hero-home-desktop-content h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    height: 40px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.hero-home-desktop-content p {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    height: 40px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+@media (max-width:1300px){
+    .hero-home-desktop-content{
+        width: 40%;
+    }
+}
+
+@media (max-width:985px){
+    .hero-home-desktop-content{
+        width: 50%;
+    }
+}
+
+@media (max-width:785px){
+    .hero-home-desktop-content{
+        width: 60%;
+    }
+    .hero-home-desktop {
+        background-image: url('../../Utils//images//fotoHomeExposure.png');
+        background-position: center;        
+    }
+
+}
+
+@media (max-width:650px){
+    .hero-home-desktop-content{
+        width: 70%;
+    }
+}
+
+@media (max-width:559px){
+    .hero-home-desktop-content{
+        width: 80%;
+    }
+    .hero-home-desktop-content h1{
+        height: 90px;
+    }
+    .hero-home-desktop-content h3{
+        height: 50px;
+    }
+}

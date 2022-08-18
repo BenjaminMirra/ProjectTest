@@ -1,0 +1,77 @@
+.hero-contact-desktop {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    background-image: url('../../Utils//images//fotoContact.png');
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+.hero-contact-desktop-content {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 550px;
+}
+
+.hero-contact-desktop-content h1 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    height: 40px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.pink {
+    color: #F778B9;
+}
+
+.hero-contact-desktop-content h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    height: 40px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.hero-contact-desktop-content-paragraph{
+    width: 40%;
+}
+
+.hero-contact-desktop-content p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    width: 55%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+@media (max-width:785px){
+    .hero-contact-desktop {
+        background-image: url('../../Utils//images//fotoContactExposure.png');
+        background-position: center;        
+    }
+}
+
+@media (max-width: 600px){
+    .hero-contact-desktop-content p{
+        width: 80%;
+    }
+}

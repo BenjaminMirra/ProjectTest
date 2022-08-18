@@ -1,0 +1,85 @@
+.contactForm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E4E4E4;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contactForm-container form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+.contact-inputlabel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.contact-inputlabel label {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding: 10px;
+}
+
+.contact-inputlabel input {
+    height: 40px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contact-inputlabel textarea {
+    height: 40px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    height: 250px;
+    padding: 10px;
+}
+
+.contactForm-container form button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:700px){
+    
+.contact-inputlabel input{
+    width: 80%;
+}
+
+.contact-inputlabel textarea{
+    width: 80%;
+}
+
+.contact-inputlabel{
+    width: 80%;
+    padding: 0;
+}
+}
