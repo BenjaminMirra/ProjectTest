@@ -8,7 +8,7 @@ In the project directory, you must run:
 
 ### `npm i classnames`
 ### `npm install react-icons --save`
-### ``
+### `npm i prop-types`
   
 And you can run:
 
